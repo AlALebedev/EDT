@@ -51,8 +51,12 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Дата</name>
+    <name>ДатаДокумента</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -62,7 +66,7 @@
       <segments>Объект.Date</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ДатаРасширеннаяПодсказка</name>
+      <name>ДатаДокументаРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -77,7 +81,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДатаКонтекстноеМеню</name>
+      <name>ДатаДокументаКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
