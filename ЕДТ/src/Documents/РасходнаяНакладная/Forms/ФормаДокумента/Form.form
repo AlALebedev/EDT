@@ -105,8 +105,12 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>СуммаПоДокументу</name>
+    <name>Сумма</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Сумма</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -116,7 +120,7 @@
       <segments>Объект.СуммаПоДокументу</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СуммаПоДокументуРасширеннаяПодсказка</name>
+      <name>СуммаРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -131,7 +135,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СуммаПоДокументуКонтекстноеМеню</name>
+      <name>СуммаКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
